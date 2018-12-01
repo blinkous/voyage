@@ -36,7 +36,6 @@ body{
     color: black;
 }
 footer{
-    /* margin-top: 60px; */
     padding-bottom: 50px;
     padding-top: 50px;
     background-color:rgba(0, 0, 0, 0.1);
@@ -48,16 +47,7 @@ footer{
     bottom: 0;
     font-size: 70%;
 }
-/* This code should be at the bottom */
-@media only screen and (max-width: 1024px) {
-    /* .carText{
-        font-size: 150%;
-        padding: 70px 35px;
-    } */
-}
 
-@media (max-width: 768px) {
-    /* .carText{
-        font-size: 100%;
-    } */
-}
+@media only screen and (max-width: 1024px) {}
+
+@media (max-width: 768px) {}
