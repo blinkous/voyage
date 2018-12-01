@@ -1,19 +1,24 @@
 nav.navbar{
     /* position: fixed; */
-    background-color:rgba(255, 255, 255, 0.322);
-    /* background-color:rgba(0, 0, 0, 0.1); */
+    /* background-color:rgba(255, 255, 255, 0.322); */
+    background-color:rgba(0, 0, 0, 0.1);
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
-}
-nav.navbar a:hover{
-    color: red;
-}
-nav a:hover{
-    color:red;
 }
 body{
     font-family: 'Raleway', sans-serif;
     /* font-family: 'Quicksand', sans-serif;
     font-family: 'Heebo', sans-serif;
     font-family: 'Chivo', sans-serif; */
+}
+footer{
+    margin-top: 100px;
+    background-color:rgba(0, 0, 0, 0.1);
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 100;
+}
+.voy{
+    font-weight: bolder;
 }
