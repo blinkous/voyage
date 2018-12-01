@@ -1,4 +1,10 @@
+nav.navbar{
+    float: left;
+    color: red;
+}
 body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Quicksand', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Chivo', sans-serif;
 }
