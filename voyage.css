@@ -12,12 +12,16 @@ body{
     font-family: 'Chivo', sans-serif; */
 }
 footer{
-    margin-top: 100px;
+    margin-top: 60px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     background-color:rgba(0, 0, 0, 0.1);
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
     text-align: center;
     font-weight: 100;
+    position: relative;
+    bottom: 0;
 }
 .voy{
     font-weight: bolder;
