@@ -6,7 +6,7 @@ nav.navbar{
     letter-spacing: 2px;
 }
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     /* font-family: 'Quicksand', sans-serif;
     font-family: 'Heebo', sans-serif;
     font-family: 'Chivo', sans-serif; */
@@ -25,4 +25,35 @@ footer{
 }
 .voy{
     font-weight: bolder;
+}
+.carText{
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    /* top: 50px;
+    left: 50px; */
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    border: double white 5px;
+    padding: 100px 50px;
+    background-color: rgba(255, 255, 255, 0.15);
+    z-index: 20;
+}
+footer{
+    font-size: 70%;
+}
+
+/* This code should be at the bottom */
+@media only screen and (max-width: 1024px) {
+    /* .carText{
+        font-size: 150%;
+        padding: 70px 35px;
+    } */
+}
+
+@media (max-width: 768px) {
+    /* .carText{
+        font-size: 100%;
+    } */
 }
