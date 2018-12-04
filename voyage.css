@@ -73,6 +73,10 @@ footer{
 a:hover{
     text-decoration: none;
 }
+
+
+
+
 @media only screen and (max-width: 1024px) {
     .carTextLight{
         font-family: 'Quicksand', sans-serif;
@@ -90,6 +94,10 @@ a:hover{
     .carTextLight p{
         font-size: 90%;
     }
+
+
+    
+
 }
 @media (max-width: 768px) {
     .carTextLight{
