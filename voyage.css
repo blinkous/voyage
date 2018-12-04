@@ -122,6 +122,14 @@ footer a:link{
 a:hover{
     text-decoration: none;
 }
+.pageHeader{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+    font-size: 200%;
+    margin-top: 200px;
+}
 @media only screen and (max-width: 1024px) {
     .carTextLight{
         top: 20%;
