@@ -127,8 +127,37 @@ a:hover{
     text-align: center;
     font-weight: 100;
     color: white;
-    font-size: 200%;
-    margin-top: 200px;
+    font-size: 300%;
+    padding-top: 300px;
+    background-color: rgb(0,0,0,.3);
+}
+.booking{
+    /* float: left; */
+    height: 300px;
+    width: 40%;
+    background-color: white;
+    z-index: 99;
+    color: black;
+    /* margin-right: 30px; */
+    /* margin: auto; */
+}
+#tips{
+    /* float: right; */
+    height: 300px;
+    width: 40%;
+    background-color: white;
+    z-index: 99;
+    color: black;
+    /* margin: auto; */
+}
+.plansub{
+    background-color: white;
+    z-index: 99;
+    color: black;
+    font-size: 150%;
+}
+.plant table{
+    cellspacing: 20px;
 }
 @media only screen and (max-width: 1024px) {
     .carTextLight{
