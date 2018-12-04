@@ -16,6 +16,10 @@ body{
 .carTextLight{
     font-family: 'Quicksand', sans-serif;
     position: absolute;
+    /* left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px; */
     top: 200px;
     left: 15%;
     width: 950px;
@@ -27,6 +31,7 @@ body{
     border: double white 5px;
     /* background-color: rgba(255, 255, 255, 0.15); */
     background-color: rgba(0, 0, 0, 0.2);
+    /* z-index: 99; */
 }
 .carTextLight:hover{
     color: white;
