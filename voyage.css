@@ -45,7 +45,7 @@ body{
     bottom: 0; */
     min-width: 100%;
     min-height: 100%;
-    max-width: 150%;
+    max-width: 100%;
     /* max-height: 150%; */
     /* width: 100%; */
     /* height: 100%; */
@@ -124,6 +124,8 @@ a:hover{
 }
 @media only screen and (max-width: 1024px) {
     .carTextLight{
+        top: 20%;
+        bottom: 50%;
         width: 500px;
         height: 230px;
         padding: 50px 25px;
@@ -137,6 +139,40 @@ a:hover{
 }
 @media (max-width: 768px) {
     .carTextLight{
-        visibility: hidden;
+        top: 10%;
+        bottom: 60%;
+        width: 500px;
+        height: 230px;
+        padding: 50px 25px;
+    }
+    .carTextLight h1{
+        font-size: 100%;
+    }
+    .carTextLight p{
+        font-size: 70%;
+    }
+}
+@media (max-width: 500px) {
+    .carTextLight{
+        top: 10%;
+        bottom: 70%;
+        width: 300px;
+        height: 140px;
+        padding: 10px 5px;
+    }
+    .carTextLight h1{
+        font-size: 90%;
+    }
+    .carTextLight p{
+        font-size: 60%;
+    }
+    .learnMore{
+        background-color: rgb(0,0,0,.9);
+        color: white;
+        width: 100px;
+        height: 30px;
+        padding: 5px;
+        margin: auto;
+        font-size: 60%;
     }
 }
