@@ -124,13 +124,14 @@ a:hover{
     color: white;
     font-size: 300%;
     padding-top: 200px;
+    padding-bottom: 20px;
     /* background-color: rgb(0,0,0,.3); */
 }
 #planPg{
     background-color: black;
 }
 .plan{
-    background-image: url(images/louvre.jpg);
+    background-image: url(images/louvres.jpg);
 	min-height: 1000px;
 	position: relative;
 	background-attachment: fixed;
@@ -138,34 +139,58 @@ a:hover{
 	background-repeat: no-repeat;
     background-size: cover;
 }
-/* container is used on plan page */
 .container{
     padding:0;
 }
-.booking{
-    float: left;
+.booking, .tips{
     height: 300px;
     width: 45%;
     background-color: rgba(255, 255, 255, 0.9);
     z-index: 99;
     color: black;   
+    padding: 10px;
+    text-align: center;
+}
+.booking{
+    float: left;
 }
 .tips{
     float: right;
-    height: 300px;
-    width: 45%;
-    background-color: rgba(255, 255, 255, 0.9);
-    z-index: 99;
-    color: black;
 }
 .plansub{
-    background-color: rgba(255, 255, 255, 0.9);
+    /* background-color: rgba(255, 255, 255, 0.9); */
     z-index: 99;
     color: black;
     font-size: 150%;
     text-align: center;
     font-weight: bolder;
     letter-spacing: 2px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+#bookForm label{
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+}
+#bookForm input{
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.searchbtn{
+    background-color: rgb(0,0,0,.9);
+    color: white;
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+}
+.searchbtn:hover{
+    background-color: white;
+    color: black;
+    border: none;
 }
 @media only screen and (max-width: 1024px) {
     .carTextLight{
@@ -180,6 +205,15 @@ a:hover{
     }
     .carTextLight p{
         font-size: 90%;
+    }
+    #bookForm label{
+        float: left;
+        width: 70px
+        /* text-align: right; */
+    }
+    #bookForm input{
+        display: block;
+        width: 200px;
     }
 }
 @media (max-width: 768px) {
