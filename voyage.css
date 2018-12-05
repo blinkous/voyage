@@ -306,6 +306,19 @@ footer a:link{
     .carText p{
         font-size: 90%;
     }
+    .aboutText{
+        top: 20%;
+        bottom: 50%;
+        width: 500px;
+        height: 230px;
+        padding: 50px 25px;
+    }
+    .aboutText h1{
+        font-size: 120%;
+    }
+    .aboutText p{
+        font-size: 90%;
+    }
     #bookForm label{
         float: left;
         width: 70px
@@ -328,6 +341,19 @@ footer a:link{
         font-size: 100%;
     }
     .carText p{
+        font-size: 70%;
+    }
+    .aboutText{
+        top: 10%;
+        bottom: 60%;
+        width: 500px;
+        height: 230px;
+        padding: 50px 25px;
+    }
+    .aboutText h1{
+        font-size: 100%;
+    }
+    .aboutText p{
         font-size: 70%;
     }
     #bookForm input{
@@ -355,6 +381,19 @@ footer a:link{
         font-size: 90%;
     }
     .carText p{
+        font-size: 60%;
+    }
+    .aboutText{
+        top: 10%;
+        bottom: 70%;
+        width: 300px;
+        height: 140px;
+        padding: 10px 5px;
+    }
+    .aboutText h1{
+        font-size: 90%;
+    }
+    .aboutText p{
         font-size: 60%;
     }
     .learnMore{
