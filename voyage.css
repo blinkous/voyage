@@ -48,7 +48,7 @@ a:hover{
 .voy{
     font-weight: bolder;
 }
-.carTextLight{
+.carText{
     position: absolute;
     top: 0;
     right: 0;
@@ -67,16 +67,14 @@ a:hover{
     border: double white 5px;
     background-color: rgba(0, 0, 0, 0.2);    
 }
-.carTextLight:hover{
-    color: white;
-    border: double white 5px;
+.carText:hover{
     background-color: rgba(0, 0, 0, 0.5);
 }
-.carTextLight h1{
+.carText h1{
     font-style: italic;
     font-weight: 100;
 }
-.carTextLight p{
+.carText p{
     font-size: 100%;
 }
 .extraTiny{
@@ -266,18 +264,46 @@ footer a:link{
     z-index: 99;
     text-align: center;
 }
+.aboutText{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 950px;
+    height: 350px;
+    margin: auto;
+    padding: 100px 50px;
+    z-index: 99;
+
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    /* border: double white 5px; */
+    background-color: rgba(0, 0, 0, 0.2);    
+}
+.aboutText:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.aboutText h1{
+    font-weight: 100;
+}
+.aboutText p{
+    font-size: 100%;
+}
 @media only screen and (max-width: 1024px) {
-    .carTextLight{
+    .carText{
         top: 20%;
         bottom: 50%;
         width: 500px;
         height: 230px;
         padding: 50px 25px;
     }
-    .carTextLight h1{
+    .carText h1{
         font-size: 120%;
     }
-    .carTextLight p{
+    .carText p{
         font-size: 90%;
     }
     #bookForm label{
@@ -291,17 +317,17 @@ footer a:link{
     }
 }
 @media (max-width: 768px) {
-    .carTextLight{
+    .carText{
         top: 10%;
         bottom: 60%;
         width: 500px;
         height: 230px;
         padding: 50px 25px;
     }
-    .carTextLight h1{
+    .carText h1{
         font-size: 100%;
     }
-    .carTextLight p{
+    .carText p{
         font-size: 70%;
     }
     #bookForm input{
@@ -318,17 +344,17 @@ footer a:link{
     }
 }
 @media (max-width: 500px) {
-    .carTextLight{
+    .carText{
         top: 10%;
         bottom: 70%;
         width: 300px;
         height: 140px;
         padding: 10px 5px;
     }
-    .carTextLight h1{
+    .carText h1{
         font-size: 90%;
     }
-    .carTextLight p{
+    .carText p{
         font-size: 60%;
     }
     .learnMore{
