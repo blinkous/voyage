@@ -29,6 +29,7 @@ a:link{
 a:hover{
     text-decoration: none;
 }
+/* HOME PAGE */
 #homePg{
     background-color: black;
 }
@@ -128,6 +129,7 @@ footer a:link{
     padding-bottom: 100px;
     /* background-color: rgb(0,0,0,.3); */
 }
+/* PLANNING PAGE */
 .plan{
     background-image: url(images/louvres.jpg);
 	min-height: 1000px;
@@ -207,6 +209,7 @@ footer a:link{
     background-color: black;
     color: white;
 }
+/* CONTACT PAGE */
 .contactPg{
     /* background-image: url(images/louvres.jpg); */
 	min-height: 1000px;
@@ -264,6 +267,11 @@ footer a:link{
     z-index: 99;
     text-align: center;
 }
+/* .tintedBack{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+} */
+/* ABOUT PAGE */
 .aboutText{
     position: absolute;
     top: 0;
@@ -291,6 +299,58 @@ footer a:link{
 }
 .aboutText p{
     font-size: 100%;
+}
+/* DESTINATIONS PAGE*/
+#nyc{
+    max-height: 800px; 
+    max-width: 100%; 
+    top: 0; 
+    background-size: cover; 
+}
+#paris{
+    max-height: 700px; 
+    max-width: 100%; 
+}
+.card {
+    color: white; 
+    background-color: transparent; 
+    border:  none; 
+}
+.-sm{
+    background-color: rgba(0, 0, 0, 0.4);
+    max-height: 100px; 
+}
+#nycdes img, #parisdes img{
+    height: 600px;
+    object-fit: cover;
+}
+.carTextDes{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 950px;
+    height: 200px;
+    margin: auto;
+    padding: 50px;
+    z-index: 99;
+
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+.carTextDes h5{
+    font-weight: 100;
+    font-size: 300%;
+}
+.carTextDes p{
+    font-size: 100%;
+}
+.carousel{
+    /* height: 500px; */
 }
 @media only screen and (max-width: 1024px) {
     .carText{
