@@ -23,6 +23,12 @@ body{
     font-family: 'Quicksand', sans-serif;
     background-color: black;
 }
+a:link{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
 #homePg{
     background-color: black;
 }
@@ -42,7 +48,7 @@ body{
 .voy{
     font-weight: bolder;
 }
-.carTextLight{
+.carText{
     position: absolute;
     top: 0;
     right: 0;
@@ -61,16 +67,14 @@ body{
     border: double white 5px;
     background-color: rgba(0, 0, 0, 0.2);    
 }
-.carTextLight:hover{
-    color: white;
-    border: double white 5px;
+.carText:hover{
     background-color: rgba(0, 0, 0, 0.5);
 }
-.carTextLight h1{
+.carText h1{
     font-style: italic;
     font-weight: 100;
 }
-.carTextLight p{
+.carText p{
     font-size: 100%;
 }
 .extraTiny{
@@ -114,21 +118,15 @@ footer a:link{
     background-color: white;
     color: black;
 }
-a:hover{
-    text-decoration: none;
-}
 .pageHeader{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     font-weight: 100;
     color: white;
     font-size: 300%;
-    padding-top: 200px;
-    padding-bottom: 20px;
+    padding-top: 120px;
+    padding-bottom: 100px;
     /* background-color: rgb(0,0,0,.3); */
-}
-#planPg{
-    background-color: black;
 }
 .plan{
     background-image: url(images/louvres.jpg);
@@ -138,21 +136,22 @@ a:hover{
 	background-position: center;
 	background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 .container{
     padding:0;
 }
 .booking, .tips{
-    height: 300px;
+    height: 500px;
     width: 45%;
     background-color: rgba(255, 255, 255, 0.9);
     z-index: 99;
     color: black;   
     padding: 10px;
-    text-align: center;
 }
 .booking{
     float: left;
+    text-align: center;
 }
 .tips{
     float: right;
@@ -165,8 +164,11 @@ a:hover{
     text-align: center;
     font-weight: bolder;
     letter-spacing: 2px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border-bottom: 1px solid rgb(200,200,200);
+}
+.contactPg{
+    background-color: black;
 }
 #bookForm label{
     float: left;
@@ -192,18 +194,116 @@ a:hover{
     color: black;
     border: none;
 }
+.tipCard{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    width: 100%;
+    padding: 20px 5px;
+    border: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tipCard:hover{
+    background-color: black;
+    color: white;
+}
+.contactPg{
+    /* background-image: url(images/louvres.jpg); */
+	min-height: 1000px;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+#contactForm label{
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+    color: white;
+}
+#contactForm input{
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.myCVideo{
+    position: relative;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    z-index: -1;
+}
+.cPageHeader{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+    font-size: 300%;
+    padding-top: 100px;
+    z-index: 99; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.contactFormDiv{
+    position: absolute;
+    top: 300px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 500px;
+    height: 100%;
+    margin: auto;
+    padding: 100px 50px;
+    z-index: 99;
+    text-align: center;
+}
+.aboutText{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 950px;
+    height: 350px;
+    margin: auto;
+    padding: 100px 50px;
+    z-index: 99;
+
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    /* border: double white 5px; */
+    background-color: rgba(0, 0, 0, 0.2);    
+}
+.aboutText:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.aboutText h1{
+    font-weight: 100;
+}
+.aboutText p{
+    font-size: 100%;
+}
 @media only screen and (max-width: 1024px) {
-    .carTextLight{
+    .carText{
         top: 20%;
         bottom: 50%;
         width: 500px;
         height: 230px;
         padding: 50px 25px;
     }
-    .carTextLight h1{
+    .carText h1{
         font-size: 120%;
     }
-    .carTextLight p{
+    .carText p{
         font-size: 90%;
     }
     #bookForm label{
@@ -217,32 +317,44 @@ a:hover{
     }
 }
 @media (max-width: 768px) {
-    .carTextLight{
+    .carText{
         top: 10%;
         bottom: 60%;
         width: 500px;
         height: 230px;
         padding: 50px 25px;
     }
-    .carTextLight h1{
+    .carText h1{
         font-size: 100%;
     }
-    .carTextLight p{
+    .carText p{
         font-size: 70%;
+    }
+    #bookForm input{
+        display: block;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    .cPageHeader{
+        font-size: 200%;
+        padding-top: 50px;
+    }
+    .contactFormDiv{
+        top: 70px;
     }
 }
 @media (max-width: 500px) {
-    .carTextLight{
+    .carText{
         top: 10%;
         bottom: 70%;
         width: 300px;
         height: 140px;
         padding: 10px 5px;
     }
-    .carTextLight h1{
+    .carText h1{
         font-size: 90%;
     }
-    .carTextLight p{
+    .carText p{
         font-size: 60%;
     }
     .learnMore{
@@ -253,5 +365,18 @@ a:hover{
         padding: 5px;
         margin: auto;
         font-size: 60%;
+    }
+    .contactFormDiv{
+        top: 0px;
+        width: 400px;
+    }
+    #contactForm label{
+        width: 90px;
+        font-size: 80%;
+    }
+    #contactForm input{
+        width: 200px;
+        font-size: 80%;
+        height: 30px;
     }
 }
