@@ -78,6 +78,14 @@ a:hover{
 .carText p{
     font-size: 100%;
 }
+/* .carText p:hover{
+    font-size: 150%;
+} */
+.carText .littleh{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
 .extraTiny{
     font-size: 60%;
     padding-top: 10px;
@@ -354,7 +362,7 @@ footer a:link{
 }
 @media only screen and (max-width: 1024px) {
     .carText{
-        top: 20%;
+        top: 30%;
         bottom: 50%;
         width: 500px;
         height: 230px;
@@ -391,11 +399,11 @@ footer a:link{
 }
 @media (max-width: 768px) {
     .carText{
-        top: 10%;
+        top: 30%;
         bottom: 60%;
-        width: 500px;
-        height: 230px;
-        padding: 50px 25px;
+        width: 450px;
+        height: 200px;
+        padding: 20px 25px;
     }
     .carText h1{
         font-size: 100%;
@@ -428,10 +436,21 @@ footer a:link{
     .contactFormDiv{
         top: 70px;
     }
+    /* des */
+    #nycdes img, #parisdes img{
+        height: 400px;
+    }
+    .carTextDes{
+        top: 20%;
+        bottom: 70%;
+        width: 600px;
+        height: 200px;
+        padding: 50px;  
+    }
 }
 @media (max-width: 500px) {
     .carText{
-        top: 10%;
+        top: 40%;
         bottom: 70%;
         width: 300px;
         height: 140px;
@@ -460,8 +479,8 @@ footer a:link{
         background-color: rgb(0,0,0,.9);
         color: white;
         width: 100px;
-        height: 30px;
-        padding: 5px;
+        height: 20px;
+        padding: 1px;
         margin: auto;
         font-size: 60%;
     }
@@ -477,5 +496,16 @@ footer a:link{
         width: 200px;
         font-size: 80%;
         height: 30px;
+    }
+    /* des */
+    .carTextDes{
+        top: 20%;
+        bottom: 70%;
+        width: 400px;
+        height: 150px;
+        padding: 50px;  
+    }
+    .carTextDes h5{
+        font-size: 200%;
     }
 }
