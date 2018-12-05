@@ -311,11 +311,42 @@ footer a:link{
     color: white; 
     background-color: transparent; 
     border:  none; 
-    
 }
 .-sm{
     background-color: rgba(0, 0, 0, 0.4);
     max-height: 100px; 
+}
+#nycdes img, #parisdes img{
+    height: 600px;
+    object-fit: cover;
+}
+.carTextDes{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 950px;
+    height: 200px;
+    margin: auto;
+    padding: 50px;
+    z-index: 99;
+
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+.carTextDes h5{
+    font-weight: 100;
+    font-size: 300%;
+}
+.carTextDes p{
+    font-size: 100%;
+}
+.carousel{
+    /* height: 500px; */
 }
 @media only screen and (max-width: 1024px) {
     .carText{
