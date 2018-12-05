@@ -130,9 +130,6 @@ footer a:link{
     padding-bottom: 20px;
     /* background-color: rgb(0,0,0,.3); */
 }
-#planPg{
-    background-color: black;
-}
 .plan{
     background-image: url(images/louvres.jpg);
 	min-height: 1000px;
@@ -141,6 +138,7 @@ footer a:link{
 	background-position: center;
 	background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 .container{
     padding:0;
@@ -170,6 +168,9 @@ footer a:link{
     letter-spacing: 2px;
     margin-bottom: 20px;
     border-bottom: 1px solid rgb(200,200,200);
+}
+.contactPg{
+    background-color: black;
 }
 #bookForm label{
     float: left;
@@ -207,6 +208,58 @@ footer a:link{
 .tipCard:hover{
     background-color: black;
     color: white;
+}
+.contactPg{
+    /* background-image: url(images/louvres.jpg); */
+	min-height: 1000px;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+#contactForm label{
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+}
+#contactForm input{
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.myCVideo{
+    position: relative;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    z-index: -1;
+}
+.cPageHeader{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+    font-size: 300%;
+    padding-top: 100px;
+    z-index: 99; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.contactFormDiv{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 250px;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
 }
 @media only screen and (max-width: 1024px) {
     .carTextLight{
