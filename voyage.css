@@ -267,6 +267,10 @@ footer a:link{
     z-index: 99;
     text-align: center;
 }
+/* .tintedBack{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+} */
 /* ABOUT PAGE */
 .aboutText{
     position: absolute;
