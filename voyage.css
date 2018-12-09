@@ -328,7 +328,6 @@ footer a:link{
 }
 .-sm{
     background-color: rgba(0, 0, 0, 0.4);
-    max-height: 100px; 
 }
 #nycdes img, #parisdes img{
     height: 600px;
@@ -362,6 +361,7 @@ footer a:link{
 .carousel{
     /* height: 500px; */
 }
+
 @media only screen and (max-width: 1024px) {
     .carText{
         top: 30%;
