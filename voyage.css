@@ -344,6 +344,9 @@ footer a:link{
 }
 
 @media only screen and (max-width: 1024px) {
+    nav.navbar{
+        background-color:rgba(0, 0, 0, 0.5);
+    }
     .carText{
         top: 30%;
         bottom: 50%;
@@ -449,9 +452,9 @@ footer a:link{
 }
 @media (max-width: 500px) {
     .carText{
-        top: 40%;
-        bottom: 70%;
-        width: 300px;
+        top: 10%;
+        bottom: 75%;
+        width: 350px;
         height: 140px;
         padding: 10px 5px;
     }
@@ -459,7 +462,7 @@ footer a:link{
         font-size: 90%;
     }
     .carText p{
-        font-size: 60%;
+        font-size: 70%;
     }
     .aboutText{
         top: 10%;
@@ -475,12 +478,9 @@ footer a:link{
         font-size: 60%;
     }
     .learnMore{
-        background-color: rgb(0,0,0,.9);
-        color: white;
         width: 100px;
         height: 20px;
         padding: 1px;
-        margin: auto;
         font-size: 60%;
     }
     #bookForm input{
