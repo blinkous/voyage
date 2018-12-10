@@ -25,7 +25,6 @@ body{
     background-color: black;
 }
 a:link{
-    /* color: black; */
     color: white;
 }
 a:hover{
@@ -39,14 +38,9 @@ a:hover{
     position: relative;
     top: 0;
     right: 0;
-    /* left: 0;
-    bottom: 0; */
     min-width: 100%;
     min-height: 100%;
     max-width: 100%;
-    /* max-height: 150%; */
-    /* width: 100%; */
-    /* height: 100%; */
 }
 .voy{
     font-weight: bolder;
@@ -80,9 +74,6 @@ a:hover{
 .carText p{
     font-size: 100%;
 }
-/* .carText p:hover{
-    font-size: 150%;
-} */
 .carText .littleh{
     margin: 0;
     padding: 0;
@@ -137,7 +128,6 @@ footer a:link{
     font-size: 300%;
     padding-top: 120px;
     padding-bottom: 100px;
-    /* background-color: rgb(0,0,0,.3); */
 }
 /* PLANNING PAGE */
 .plan{
@@ -169,7 +159,6 @@ footer a:link{
     float: right;
 }
 .plansub{
-    /* background-color: rgba(255, 255, 255, 0.9); */
     z-index: 99;
     color: black;
     font-size: 150%;
@@ -221,7 +210,6 @@ footer a:link{
 }
 /* CONTACT PAGE */
 .contactPg{
-    /* background-image: url(images/louvres.jpg); */
 	min-height: 1000px;
 	position: relative;
 	background-attachment: fixed;
@@ -277,10 +265,6 @@ footer a:link{
     z-index: 99;
     text-align: center;
 }
-/* .tintedBack{
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 99;
-} */
 /* ABOUT PAGE */
 .aboutText{
     position: absolute;
@@ -358,9 +342,6 @@ footer a:link{
 .carTextDes p{
     font-size: 100%;
 }
-.carousel{
-    /* height: 500px; */
-}
 
 @media only screen and (max-width: 1024px) {
     .carText{
@@ -400,6 +381,9 @@ footer a:link{
     }
 }
 @media (max-width: 768px) {
+    nav.navbar{
+        background-color:rgba(0, 0, 0, 0.5);
+    }
     .carText{
         top: 30%;
         bottom: 60%;
@@ -428,17 +412,33 @@ footer a:link{
     }
     #bookForm input{
         display: block;
-        width: 150px;
+        width: 400px;
         margin-bottom: 10px;
     }
-    .cPageHeader{
+    .pageHeader{
         font-size: 200%;
-        padding-top: 50px;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .tips, .booking{
+        float: none;
+        width: 100%;
+    }
+    .booking{
+        height: 300px;
+    }
+    .tips{
+        margin-top: 20px;
+        height: 550px;
+    }
+    .cPageHeader{
+        font-size: 150%;
+        padding-top: 60px;
     }
     .contactFormDiv{
         top: 70px;
     }
-    /* des */
+    /* destinations */
     #nycdes img, #parisdes img{
         height: 400px;
     }
@@ -452,9 +452,9 @@ footer a:link{
 }
 @media (max-width: 500px) {
     .carText{
-        top: 40%;
-        bottom: 70%;
-        width: 300px;
+        top: 10%;
+        bottom: 75%;
+        width: 350px;
         height: 140px;
         padding: 10px 5px;
     }
@@ -462,11 +462,11 @@ footer a:link{
         font-size: 90%;
     }
     .carText p{
-        font-size: 60%;
+        font-size: 70%;
     }
     .aboutText{
         top: 10%;
-        bottom: 70%;
+        bottom: 75%;
         width: 300px;
         height: 140px;
         padding: 10px 5px;
@@ -478,13 +478,13 @@ footer a:link{
         font-size: 60%;
     }
     .learnMore{
-        background-color: rgb(0,0,0,.9);
-        color: white;
         width: 100px;
         height: 20px;
         padding: 1px;
-        margin: auto;
         font-size: 60%;
+    }
+    #bookForm input{
+        width: 300px;
     }
     .contactFormDiv{
         top: 0px;
@@ -509,5 +509,12 @@ footer a:link{
     }
     .carTextDes h5{
         font-size: 200%;
+    }
+    .searchbtn{
+        font-size: 80%;
+        width: 90px;
+        height: 30px;
+        padding: 5px;
+        /* background-color: white; */
     }
 }
