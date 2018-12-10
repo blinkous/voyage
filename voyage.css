@@ -344,9 +344,6 @@ footer a:link{
 }
 
 @media only screen and (max-width: 1024px) {
-    nav.navbar{
-        background-color:rgba(0, 0, 0, 0.5);
-    }
     .carText{
         top: 30%;
         bottom: 50%;
@@ -384,6 +381,9 @@ footer a:link{
     }
 }
 @media (max-width: 768px) {
+    nav.navbar{
+        background-color:rgba(0, 0, 0, 0.5);
+    }
     .carText{
         top: 30%;
         bottom: 60%;
@@ -432,8 +432,8 @@ footer a:link{
         height: 550px;
     }
     .cPageHeader{
-        font-size: 200%;
-        padding-top: 50px;
+        font-size: 150%;
+        padding-top: 60px;
     }
     .contactFormDiv{
         top: 70px;
@@ -466,7 +466,7 @@ footer a:link{
     }
     .aboutText{
         top: 10%;
-        bottom: 70%;
+        bottom: 75%;
         width: 300px;
         height: 140px;
         padding: 10px 5px;
