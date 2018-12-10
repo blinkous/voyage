@@ -210,7 +210,7 @@ footer a:link{
 }
 /* CONTACT PAGE */
 .contactPg{
-	min-height: 1000px;
+	/* min-height: 700px; */
 	position: relative;
 	background-attachment: fixed;
 	background-position: center;
@@ -254,14 +254,14 @@ footer a:link{
 }
 .contactFormDiv{
     position: absolute;
-    top: 300px;
+    top: 220px;
     right: 0;
     left: 0;
-    bottom: 0;
     width: 500px;
-    height: 100%;
+    height: 200px;
     margin: auto;
-    padding: 100px 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     z-index: 99;
     text-align: center;
 }
@@ -342,7 +342,6 @@ footer a:link{
 .carTextDes p{
     font-size: 100%;
 }
-
 @media only screen and (max-width: 1024px) {
     .carText{
         top: 30%;
@@ -432,11 +431,11 @@ footer a:link{
         height: 550px;
     }
     .cPageHeader{
-        font-size: 150%;
+        font-size: 200%;
         padding-top: 60px;
     }
     .contactFormDiv{
-        top: 70px;
+        top: 150px;
     }
     /* destinations */
     #nycdes img, #parisdes img{
@@ -486,8 +485,11 @@ footer a:link{
     #bookForm input{
         width: 300px;
     }
+    .cPageHeader{
+        font-size: 150%;
+    }
     .contactFormDiv{
-        top: 0px;
+        top: 110px;
         width: 400px;
     }
     #contactForm label{
