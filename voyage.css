@@ -230,15 +230,6 @@ footer a:link{
     width: 300px;
     margin-bottom: 10px;
 }
-.myCVideo{
-    position: relative;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    max-width: 100%;
-    z-index: -1;
-}
 .cPageHeader{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
@@ -383,19 +374,22 @@ footer a:link{
     nav.navbar{
         background-color:rgba(0, 0, 0, 0.5);
     }
+    .myVideo{
+        max-width: 125%;
+    }
     .carText{
-        top: 30%;
+        top: 20%;
         bottom: 60%;
         width: 450px;
         height: 200px;
         padding: 20px 25px;
     }
-    .carText h1{
+    /* .carText h1{
         font-size: 100%;
     }
     .carText p{
         font-size: 70%;
-    }
+    } */
     .aboutText{
         top: 10%;
         bottom: 60%;
@@ -407,7 +401,7 @@ footer a:link{
         font-size: 100%;
     }
     .aboutText p{
-        font-size: 70%;
+        font-size: 90%;
     }
     #bookForm input{
         display: block;
@@ -450,18 +444,14 @@ footer a:link{
     }
 }
 @media (max-width: 500px) {
+    .myVideo{
+        max-width: 200%;
+    }
     .carText{
-        top: 10%;
+        top: 20%;
         bottom: 75%;
         width: 350px;
-        height: 140px;
-        padding: 10px 5px;
-    }
-    .carText h1{
-        font-size: 90%;
-    }
-    .carText p{
-        font-size: 70%;
+        height: 200px;
     }
     .aboutText{
         top: 10%;
