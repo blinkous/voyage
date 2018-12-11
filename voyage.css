@@ -53,6 +53,74 @@ a:hover{
 .voy{
     font-weight: bolder;
 }
+/* .wholepage:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.6s ease-in;
+} */
+.wholepage{
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 98;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* transition: all 0.6s ease-in; */
+}
+.lightbox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    padding: 50px 50px;
+    z-index: 99;
+
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 200%;
+    color: black;
+    border: double black 5px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    background-color: rgba(255, 255, 255);
+}
+.lightbox:hover{
+    color: white;
+    border: double white 5px;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+#lightX{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    font-size: 100%;
+    margin: auto;
+    color: black;
+}
+#iconLightDark, #iconLightL{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    height: 100px;
+    margin: auto;
+    /* width: 110px; */
+}
+/* #iconLightDark:hover{
+    opacity: 0;
+    transition: all 0.1s ease-in;
+} */
 .carText{
     position: absolute;
     top: 0;
@@ -63,7 +131,7 @@ a:hover{
     height: 400px;
     margin: auto;
     padding: 100px 50px;
-    z-index: 99;
+    z-index: 97;
 
     font-family: 'Quicksand', sans-serif;
     text-align: center;
@@ -365,7 +433,7 @@ input#name:focus:invalid, input#email:focus:invalid,  textarea#message:focus:inv
     height: 200px;
     margin: auto;
     padding: 50px;
-    z-index: 99;
+    z-index: 97;
 
     font-family: 'Quicksand', sans-serif;
     text-align: center;
