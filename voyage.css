@@ -279,7 +279,6 @@ input#where:focus:invalid, input#when:focus:invalid{
 input#name:focus:invalid, input#email:focus:invalid,  textarea#message:focus:invalid{
 	background:#dbdbdb;
 }
-
 .contactText{
     position: absolute;
     top: 180px;
