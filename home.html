@@ -51,12 +51,41 @@
 </header>
 
 <body id="homePg">
+    <div class="wholepage"> </div>
     <div class="carText">
         <h1>SEE THE WORLD FROM A NEW PERSPECTIVE</h1>
         <p>Have you ever wondered what sunsets look like in Croatia? <br>
         You don't need to be rich to travel.</p>
         <a href="plan.html"><div class="learnMore">LEARN MORE</div></a>
     </div>
+
+    <div class="lightbox" id="homeLight">
+        READY TO GO ON A <span id="lighvoy">VOYAGE?</span>
+        <br><br>
+        <!-- <a href="home.html"><img id="iconLightL" src="images/icon_light.png" height="100px"></a>
+        <a href="home.html"><img id="iconLightDark" src="images/icon.png" height="100px"></a> -->
+        <img id="iconLightL" src="images/icon_light.png" height="100px">
+        <img id="iconLightDark" src="images/icon.png" height="100px">
+    </div>
+    <script>
+        $(document).ready(function(){
+            $(".wholepage").css("visibility","visible");
+            $(".lightbox").css("visibility", "visible");
+        });
+        $(".wholepage").click(function(){
+            // $(this).fadeTo("fast", 0.1);
+            $(".wholepage").css("visibility","hidden");
+            $(".lightbox").css("visibility","hidden");
+        })
+        $(".lightbox").hover(function(){
+            // $("#iconLightDark").css("opacity: 0", "transition: all 0.1s ease-in");
+            $("#iconLightDark").css("opacity","0");
+        })
+        $(".wholepage").hover(function(){
+            // $("#iconLightDark").css("opacity: 0", "transition: all 0.1s ease-in");
+            $("#iconLightDark").css("opacity","100");
+        })
+    </script>
 
     <video autoplay muted loop id="myVideo" class="myVideo" alt="Sunset in Croatia">
         <source src="videos/Dubrovnik.mp4" type="video/mp4">
