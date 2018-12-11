@@ -42,6 +42,14 @@ a:hover{
     min-height: 100%;
     max-width: 100%;
 }
+.backCaption{
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    font-size: 100%;
+    z-index: 99;
+    color: white;
+}
 .voy{
     font-weight: bolder;
 }
@@ -181,6 +189,13 @@ footer a:link{
     display: block;
     width: 300px;
     margin-bottom: 10px;
+    border-radius: 0;
+    border: none;
+}
+input#where:focus:invalid, input#when:focus:invalid{
+	/* background:#dbdbdb; */
+}
+#bookForm input:focus{
 }
 .searchbtn{
     background-color: rgb(0,0,0,.9);
@@ -264,7 +279,6 @@ footer a:link{
 input#name:focus:invalid, input#email:focus:invalid,  textarea#message:focus:invalid{
 	background:#dbdbdb;
 }
-
 .contactText{
     position: absolute;
     top: 180px;
@@ -370,11 +384,14 @@ input#name:focus:invalid, input#email:focus:invalid,  textarea#message:focus:inv
         font-size: 90%;
     }
     .aboutText{
-        top: 20%;
-        bottom: 50%;
+        top: 30%;
+        bottom: 80%;
         width: 500px;
         height: 230px;
         padding: 50px 25px;
+    }
+    .aboutText img{
+        height: 30px;
     }
     .aboutText h1{
         font-size: 120%;
@@ -473,17 +490,7 @@ input#name:focus:invalid, input#email:focus:invalid,  textarea#message:focus:inv
         height: 200px;
     }
     .aboutText{
-        top: 10%;
-        bottom: 75%;
-        width: 300px;
-        height: 140px;
-        padding: 10px 5px;
-    }
-    .aboutText h1{
-        font-size: 90%;
-    }
-    .aboutText p{
-        font-size: 60%;
+        width: 350px;
     }
     .learnMore{
         width: 100px;
@@ -502,7 +509,7 @@ input#name:focus:invalid, input#email:focus:invalid,  textarea#message:focus:inv
         font-size: 100%;
     }
     .contactFormDiv{
-        top: 110px;
+        top: 150px;
         width: 400px;
     }
     #contactForm label{
