@@ -117,10 +117,6 @@ a:hover{
     margin: auto;
     /* width: 110px; */
 }
-/* #iconLightDark:hover{
-    opacity: 0;
-    transition: all 0.1s ease-in;
-} */
 .carText{
     position: absolute;
     top: 0;
@@ -449,6 +445,12 @@ input#name:focus:invalid, input#email:focus:invalid,  textarea#message:focus:inv
     font-size: 100%;
 }
 @media only screen and (max-width: 1024px) {
+    .lightbox{
+        visibility: hidden;
+    }
+    .wholepage{
+        visibility: hidden;
+    }
     .carText{
         top: 30%;
         bottom: 50%;

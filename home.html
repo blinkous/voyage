@@ -70,11 +70,6 @@
         </script>
     </div>
     <script>
-        $(document).ready(function(){
-            $(".wholepage").css("visibility","visible");
-            $(".lightbox").css("visibility", "visible");
-        });
-        
         $(".wholepage").click(function(){
             $(".wholepage").css("visibility","hidden");
             $(".lightbox").css("visibility","hidden");
@@ -92,7 +87,6 @@
             $("#lightX").css("color", "black");
         })
         $("#lightX").click(function(){
-            // $(this).fadeTo("fast", 0.1);
             $(".wholepage").css("visibility","hidden");
             $(".lightbox").css("visibility","hidden");
         })
