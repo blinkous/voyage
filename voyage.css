@@ -380,6 +380,9 @@ input#name:focus:invalid, input#email:focus:invalid,  textarea#message:focus:inv
 .carTextDes p{
     font-size: 100%;
 }
+
+
+
 @media only screen and (max-width: 1024px) {
     .carText{
         top: 30%;
@@ -419,6 +422,12 @@ input#name:focus:invalid, input#email:focus:invalid,  textarea#message:focus:inv
         display: block;
         width: 200px;
     }
+
+  
+
+
+
+
 }
 @media (max-width: 768px) {
     nav.navbar{
@@ -485,10 +494,13 @@ input#name:focus:invalid, input#email:focus:invalid,  textarea#message:focus:inv
     .carTextDes{
         top: 20%;
         bottom: 70%;
-        width: 600px;
+        width: 400px;
         height: 200px;
         padding: 50px;  
     }
+
+
+
 }
 @media (max-width: 500px) {
     .myVideo{
