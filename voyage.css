@@ -1,7 +1,4 @@
 nav.navbar{
-    /* position: fixed; */
-    /* background-color:rgba(255, 255, 255, 0.322); */
-    /* background-color:rgba(0, 0, 0, 0.1); */
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
 }
@@ -12,8 +9,7 @@ nav .dropdown-menu{
     width: 50px;
 }
 nav .dropdown-item{
-    /* color: rgba(255, 255, 255, 0.5); */
-    color: rgba(255, 255, 255);
+    color: rgb(255, 255, 255);
     padding: 0 8px;
 }
 nav .dropdown-item:hover{
@@ -58,7 +54,6 @@ a:hover{
     transition: all 0.6s ease-in;
 } */
 .wholepage{
-    /* background-color: rgba(255, 255, 255, 0.8); */
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 98;
     height: 100%;
@@ -68,7 +63,6 @@ a:hover{
     right: 0;
     left: 0;
     bottom: 0;
-    /* transition: all 0.6s ease-in; */
 }
 .lightbox{
     position: absolute;
@@ -88,8 +82,7 @@ a:hover{
     font-size: 200%;
     color: black;
     border: double black 5px;
-    /* background-color: rgba(0, 0, 0, 0.2); */
-    background-color: rgba(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 }
 .lightbox:hover{
     color: white;
@@ -115,7 +108,6 @@ a:hover{
     z-index: 99;
     height: 100px;
     margin: auto;
-    /* width: 110px; */
 }
 .carText{
     position: absolute;
@@ -165,7 +157,7 @@ footer{
     padding-bottom: 20px;
     padding-top: 20px;
     width: 100%;
-    background-color:rgba(0, 0, 0);
+    background-color:rgb(0, 0, 0);
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
@@ -175,7 +167,8 @@ footer{
 }
 .relFooter{
     position: absolute;
-    bottom: 0;  
+    bottom: 0; 
+    background-color: black; 
 }
 footer a:link{
     color: white;
@@ -267,13 +260,8 @@ footer a:link{
     border-radius: 0;
     border: none;
 }
-input#where:focus:invalid, input#when:focus:invalid{
-	/* background:#dbdbdb; */
-}
-#bookForm input:focus{
-}
 .searchbtn{
-    background-color: rgb(0,0,0,.9);
+    background-color: rgb(0,0,0);
     color: white;
     width: 150px;
     height: 40px;
