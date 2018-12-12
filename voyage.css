@@ -243,6 +243,8 @@ footer a:link{
     letter-spacing: 2px;
     margin-bottom: 20px;
     border-bottom: 1px solid rgb(200,200,200);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
 }
 .contactPg{
     background-color: black;
