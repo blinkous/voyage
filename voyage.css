@@ -524,7 +524,7 @@ input#name:focus:invalid, input#email:focus:invalid,  textarea#message:focus:inv
     }
     .tips{
         margin-top: 20px;
-        height: 550px;
+        height: 600px;
     }
     .cPageHeader{
         font-size: 200%;
