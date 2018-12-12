@@ -51,12 +51,43 @@
 </header>
 
 <body id="homePg">
+    <div class="wholepage"> </div>
     <div class="carText">
         <h1>SEE THE WORLD FROM A NEW PERSPECTIVE</h1>
         <p>Have you ever wondered what sunsets look like in Croatia? <br>
         You don't need to be rich to travel.</p>
         <a href="plan.html"><div class="learnMore">LEARN MORE</div></a>
     </div>
+
+    <div class="lightbox" id="homeLight">
+        <p id="lightX">X</p>
+        READY TO GO ON A <span id="lighvoy">VOYAGE?</span>
+        <br><br>
+        <img id="iconLightL" src="images/icon_light.png" height="100px">
+        <img id="iconLightDark" src="images/icon.png" height="100px">
+    </div>
+    <script>
+        $(".wholepage").click(function(){
+            $(".wholepage").css("visibility","hidden");
+            $(".lightbox").css("visibility","hidden");
+        })
+        $("#iconLightDark").click(function(){
+            $(".wholepage").css("visibility","hidden");
+            $(".lightbox").css("visibility","hidden");
+        })
+        $(".lightbox").hover(function(){
+            $("#iconLightDark").css("opacity","0");
+            $("#lightX").css("color", "white");
+        })
+        $(".wholepage").hover(function(){
+            $("#iconLightDark").css("opacity","100");
+            $("#lightX").css("color", "black");
+        })
+        $("#lightX").click(function(){
+            $(".wholepage").css("visibility","hidden");
+            $(".lightbox").css("visibility","hidden");
+        })
+    </script>
 
     <video autoplay muted loop id="myVideo" class="myVideo" alt="Sunset in Croatia">
         <source src="videos/Dubrovnik.mp4" type="video/mp4">
@@ -77,9 +108,9 @@
         COPYRIGHT &copy 2018 <br>
         <a href="mailto:info@voyage.life">info@voyage.life</a>
         <div class="social">
-            <a href="https://www.facebook.com/"><img src="images/fbl.png"></a>
-            <a href="https://www.pinterest.com/"><img src="images/pinterestl.png"></a>
-            <a href="https://www.instagram.com/?hl=en"><img src="images/instal.png"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/fbl.png"></a>
+            <a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterestl.png"></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instal.png"></a>
         </div>
         Last modified 
         <script>
